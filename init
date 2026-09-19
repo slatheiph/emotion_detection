@@ -1,0 +1,9 @@
+# pylint: disable=invalid-name
+"""Public API for the emotion detection package.
+
+The capitalized package name is retained to match the course specification.
+"""
+
+from .emotion_detection import emotion_detector
+
+__all__ = ["emotion_detector"]
